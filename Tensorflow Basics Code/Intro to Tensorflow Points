@@ -1,0 +1,15 @@
+Tensorflow:
+
+- Tensorflow is a library used to incorporate machine learning into projects by providing APIs and data
+- Tensors are basic units of data and are arrays of primitive values
+- Programs have 2 sections: building graph with nodes, and running the graph
+- Building:
+    - Build a graph of nodes, each takes 0+ tensors as input
+    - Specify model type, input parameters, expected output, and parameters we want model to optimize
+    - Might also want some training data and some testing data
+- Running:
+    - Run the session on our graph to output any results
+    - Specify how many times we want our model to run
+    - First train with training data then use testing data to assess accuracy
+- One of the simplest models is linear regression. We basically estimate a line that fits some data and run our model
+    until the line adjusts to best fit the data, but more on this later

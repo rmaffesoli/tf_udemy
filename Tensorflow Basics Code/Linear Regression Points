@@ -1,0 +1,10 @@
+- Linear regression is one of the simplest machine learning models (y = mx + b)
+- Try to fit a line of best fit through some data points to help with prediction
+- Program optimizes line by adjusting m and b until it minimizes loss
+    - loss is the difference between an actual y value and the line itself
+    - minimal loss corresponds with a line that best fits the data as points are on average closer to the line
+- Training our model:
+    - Take x values and expected y values as inputs
+    - Start with guess for m and b and measure loss
+    - Run program to adjust m and b to minimize loss based on inputs
+- Final model will fit a good line through data and will be able to predict correct y values given x input
